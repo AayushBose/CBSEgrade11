@@ -1,0 +1,13 @@
+#Write a program that inputs individual words of your school motto and joins them to make a string. It should also input day, month, year of your school's foundation date and print the complete date
+print("Enter words of your school motto")
+w1 = input("Enter word 1: ")
+w2 = input("Enter word 2: ")
+w3 = input("Enter word 3: ")
+motto = " ".join([w1,w2,w3])
+print("Ennter schools foundation date")
+dd = input("Enter day")
+mm = input("Enter month number")
+yyyy = input("Enter year ")
+date = "/".join([dd,mm,yyyy])
+print("Schools motto:",motto)
+print("School foundation date", date)
